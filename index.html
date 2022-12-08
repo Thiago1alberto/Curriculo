@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Curriculo</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>THIAGO ALBERTO RIBEIRO DOS SANTOS</h1>
+      <img
+        src="https://img.freepik.com/vetores-premium/homem-perfil-caricatura_18591-58482.jpg?w=2000"
+        jsaction="load:XAeZkd;"
+        jsname="HiaYvf"
+        class="n3VNCb KAlRDb"
+        alt="Homem, perfil, caricatura | Vetor Premium"
+        data-noaft="1"
+        style="width: 151px; height: 151px; margin: 0px"
+      />
+      <div id="contatoHeader">
+        <span>Contato:</span>
+        <a
+          href="tel:+558199353-1373"
+          target="_blank"
+          title="Ligar"
+          rel="external noopener noreferrer"
+          referrerpolicy="noreferrer"
+          >(81)99353-1373</a
+        >
+        <br />
+        <a
+          href="mailto:thiago.2019206627@unicap.br?subject=Quero%20te%20contratar&cc=thiago.2019206627@unicap.br&bcc=thiago.2019206627@unicap.br&body="
+          target="_blank"
+          title="Enviar email para THiago"
+          rel="external noopener noreferrer"
+          referrerpolicy="noreferrer"
+          >thiago.2019206627@unicap.br</a
+        >
+      </div>
+    </header>
+    <aside>
+      <article id="objetivo">
+        <h3>Objetivo</h3>
+        <p>Ser um programador de <b>Data Science</b></p>
+        <p>
+          Estou estudando <strong>programação <i>Na UNICAP</i></strong> e
+          gostaria de uma
+          <mark><em>oportunidade para entrar no mercado de TI</em></mark> e
+          <em>aprender com outros desenvolvedores mais experientes</em>.
+        </p>
+        <p>
+          Estou acostumado com momentos de pressão no trabalho e sei lidar muito
+          bem com isso.
+          <mark>Gosto de trabalhar em equipe e de estudar bastante</mark>.
+        </p>
+      </article>
+      <article id="recomendacoes">
+        <h3>Recomendações</h3>
+        <table>
+          <thead>
+            <th scope="col">Nome</th>
+            <th scope="colgroup" colspan="2">Contatos</th>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Marcio Bueno</th>
+              <td>
+                <a
+                  href="tel:+5581999080518"
+                  target="_blank"
+                  title="Ligar para Marcio Bueno"
+                  rel="external noopener noreferrer"
+                  referrerpolicy="noreferrer"
+                  >(11) 8765-4321</a
+                >
+              </td>
+              <td>
+                <a
+                  href="marcio.bueno@mrgeek.com.br;"
+                  target="_blank"
+                  title="Enviar email para Marcio Bueno"
+                  rel="external noopener noreferrer"
+                  referrerpolicy="noreferrer"
+                  >marcio.bueno@mrgeek.com.br
+                </a>
+              </td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3"><i>Pergunte sobre mim</i></td>
+            </tr>
+          </tfoot>
+        </table>
+      </article>
+    </aside>
+    <main>
+      <section id="habilidades">
+        <h2>Habilidades</h2>
+        <article id="hardSkills">
+          <h3>Hard Skills</h3>
+          <ul>
+            <li><strong>git</strong></li>
+            <li><strong>Phyton</strong></li>
+            <li><strong>HTML</strong></li>
+            <li><strong>CSS</strong></li>
+            <li><strong>java</strong></li>
+          </ul>
+        </article>
+        <article id="softSkills">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Empathy</li>
+            <li>Social skill</li>
+          </ul>
+        </article>
+      </section>
+      <section id="experiencia">
+        <h2>Experiência</h2>
+        <article class="profissao-item">
+          <h3>
+            Projeto de extensão UNICAP: Robótica Aplicada à Educação: uso do NAO
+            para o ensino de linguagem de programação
+          </h3>
+          <p>
+            <span class="ano">2021</span> O Projeto de Extensão tem por objetivo
+            utilizar a interação humano-robô, com o propósito de ensino de
+            algoritmos e programação para crianças. Mais precisamente, conceber
+            e implementar cenários de uso do robô NAO para ensino de programação
+            para estudantes do 7º e 8º anos finais das Escolas da rede Municipal
+            da Prefeitura do Recife. Para essa finalidade, conceitos
+            relacionados ao desenvolvimento de algoritmos e programação serão
+            utilizados. Convém informar que o NAO dispõe de um aplicativo de
+            desktop multiplataforma intitulado Choregraphe, que permite: criar e
+            testar animações, comportamentos e diálogos em um robô simulado ou
+            real; monitorar e controlar o robô; e, enriquecer os comportamentos
+            do robô com a linguagem de programação Python.
+          </p>
+          <a
+            href="https://portal.unicap.br/w/robotica-aplicada-a-educacao-uso-do-nao-para-o-ensino-de-linguagem-de-programacao"
+            >página do projeto</a
+          >.
+        </article>
+      </section>
+      <section id="formacaoAcademica">
+        <h2>Formação Acadêmica</h2>
+        <article class="formacao-item">
+          <h3>Universidade Católica de Pernambuco</h3>
+          <p><span class="ano">2019</span> Ciencia da computação</p>
+        </article>
+      </section>
+    </main>
+  </body>
+  <footer>
+    <button class="btn" onclick="PDF();">Imprimir PDF</button>
+    <script src="all.min.js"></script>
+
+    <script>
+      var btn = document.querySelector("button");
+      btn.onclick = () => {
+        window.print();
+      };
+    </script>
+  </footer>
+</html>
